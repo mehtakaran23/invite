@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+<meta charset="UTF-8">
+<title>શુભ નિમંત્રણ</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?
+    family=Baloo+2:wght@400;600;800&
+    family=Hind+Gujarati:wght@400;600&
+    family=Noto+Sans+Gujarati:wght@400;600&
+    family=Noto+Serif+Gujarati:wght@400;600&
+    display=swap" rel="stylesheet">
+
+
+<style>
+    body {
+        background: linear-gradient(135deg, #FFF1E6, #FFE4EC);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .invitation-card {
+        border: 15px solid #FFC0CB;
+        background-color: #FFD1B3;
+        padding: 40px;
+        text-align: center;
+        max-width: 500px;
+        color: #1f2d3d; /* improved contrast */
+        box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        transition: transform 0.4s ease, box-shadow 0.4s ease;
+    }
+
+    /* Card hover interaction */
+    .invitation-card:hover {
+        transform: translateY(-8px) scale(1.01);
+        box-shadow: 0 16px 40px rgba(255, 105, 135, 0.35);
+    }
+
+    .title-box {
+        background-color: #FFBFA6;
+        display: inline-block;
+        padding: 12px 34px;
+        border-radius: 10px;
+        margin-bottom: 25px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    /* Title hover */
+    .title-box:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    h1 {
+        margin: 0;
+        color: #000;
+        font-size: 26px;
+        letter-spacing: 1px;
+        font-family: 'Baloo 2', cursive; /* Festive & decorative */
+    }
+
+    .header-text {
+        font-weight: bold;
+        color: #b71c1c; /* deeper red for contrast */
+        margin-bottom: 22px;
+        position: relative;
+        font-family: 'Noto Serif Gujarati', serif;
+        font-size: 18px;
+    }
+
+    /* subtle underline animation */
+    .header-text::after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 2px;
+        background: #b71c1c;
+        transition: width 0.4s ease;
+        margin-top: 6px;
+    }
+
+    .invitation-card:hover .header-text::after {
+        width: 120px;
+    }
+
+    .date-text {
+        font-weight: bold;
+        margin: 18px 0;
+        color: #34495e;
+    }
+
+    p {
+        line-height: 1.9;
+        font-size: 16px;
+        margin-bottom: 16px;
+        color: #2c3e50;
+        transition: color 0.3s ease;
+    }
+
+    /* paragraph hover focus */
+    p:hover {
+        color: #000;
+    }
+
+    .footer {
+        margin-top: 35px;
+        font-weight: bold;
+        text-align: right;
+        color: #2c3e50;
+    }
+
+    p, .date-text, .footer {
+    font-family: 'Hind Gujarati', sans-serif;
+}
+
+body {
+    font-family: 'Hind Gujarati', 'Noto Sans Gujarati', sans-serif;
+}
+
+
+    /* Respect reduced motion preference */
+    @media (prefers-reduced-motion: reduce) {
+        * {
+            transition: none !important;
+        }
+    }
+
+    @media (hover: none) {
+    .invitation-card:hover,
+    .title-box:hover {
+        transform: none;
+        box-shadow: none;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .invitation-card {
+        max-width: 92%;
+        padding: 24px;
+        border-width: 10px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 15px;
+        line-height: 1.8;
+    }
+
+    .title-box {
+        padding: 10px 24px;
+    }
+
+    .footer {
+        font-size: 14px;
+    }
+}
+
+
+</style>
+</head>
+
+<body>
+
+<div class="invitation-card">
+    <div class="title-box">
+        <h1>હરખ ના તેડા</h1>
+    </div>
+
+    <div style="text-align: left;" class="header-text">
+        શ્રી ગણેશાય નમઃ<br>
+        ૐ શ્રી ઘંટાકર્ણ મહાવીરાય નમઃ
+    </div>
+
+    <p style="text-align: left;">સ્નેહી સ્વજન,</p>
+
+    <div style="text-align: left;" class="date-text">તા. ૩૦-૧૨-૨૫</div>
+
+    <p>
+        હું સહર્ષ આનંદ સાથે જણાવવાનું કે અમારે ઘેર આનંદનો મહામુલો અવસર આવ્યો છે. એ અવસરને માણવા અને મહાલવા આપ અગાઉથી સમયનું આયોજન કરી હું શકો તેના માટે આપને અગાઉથી આ નિમંત્રણ પાઠવીએ છીએ. પ્રસંગ છે હું ચિ.ઉર્જાના શુભ લગ્નનો, દિવસ છે મહા વદ ૭ ને રવિવારે તા.૦૮-૦૨-૨૦૨૬ નો ૐ અને સ્થળ છે વાંકાનેર.
+    </p>
+
+    <p>
+        આ શુભ પ્રસંગ છે દિકરી પ્રત્યે અત્યાર સુધી જે મમતા રાખી, તેને હર્ષાશ્રુથી * વધાવવા નો, સ્નેહીજનો ને મળવાનો, અંતરની મીઠીમધુરી યાદોનાં સંસ્મરણોને * સગાં-વ્હાલાં સાથે વાગોળવાનો.
+    </p>
+
+    <p>
+        આવો અનેરો પ્રસંગ અને અનેરો લહાવો ફરી ફરી પ્રાપ્ત થતો નથી. પ્રસંગને શોભાવવા અને અમારા અંતરની લાગણીઓને માન આપવા આપ સૌની હાજરી * અનિવાર્ય છે. આપ સૌ આ શુભ પ્રસંગે જરૂરથી પધારશો તેવું આપને અમારૂં હાર્દિક નિમંત્રણ છે.
+    </p>
+
+    <p>સમયસર હવે પછી આપને કંકોત્રી તો મળશે જ.</p>
+
+    <p>
+        આ શુભ અને સુખદાયી ક્ષણોમાં આપશ્રીની ઉપસ્થીતી અમોને આનંદ નાં મહાસાગર માં હીલોળા લેતા કરશે.
+    </p>
+
+    <p>
+        આવા શુભ પ્રસંગે અમારા આનંદના અતિરેકમાં આપની આગતા-સ્વાગતામાં કાંઈ ખામી રહે તો આપના ઘરનો જ પ્રસંગ છે તેમ સમજી ક્ષમ્યભાવ રાખશો.
+    </p>
+
+    <div style="text-align: left;" class="footer">
+        લિ. સ્નેહાધીન<br><br>
+        તુષારભાઈ એચ મેહતા<br>
+        હેતલબેન ટી મેહતા
+    </div>
+</div>
+
+</body>
+</html>
