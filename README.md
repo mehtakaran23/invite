@@ -1,2 +1,2 @@
 # invite
-It's bascally a beginner level static webpage
+It's basically a beginner level static webpage
